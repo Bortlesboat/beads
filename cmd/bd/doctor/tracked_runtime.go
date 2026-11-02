@@ -28,8 +28,11 @@ var trackedRuntimePatterns = []string{
 	"daemon.lock",
 	"dolt-server.pid",
 	"dolt-server.log",
+	"dolt-server.log.1",
 	"dolt-server.lock",
 	"dolt-server.port",
+	"dolt-server.binary",
+	".dolt-server.binary-*",
 
 	// Socket files
 	"bd.sock",
